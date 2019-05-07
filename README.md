@@ -30,7 +30,7 @@ mvn clean install
 
 ### Launch a bitcoin server
 ```
-nohup bitcoin-qt -regtest &
+nohup bitcoin-qt -regtest  -deprecatedrpc=generate &
 ```
 From the GUI go to 'Help / Debug window / Console' and run `generate 101`
 
